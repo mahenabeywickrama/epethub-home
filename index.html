@@ -6,6 +6,7 @@
   <title>EPet Hub</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -40,19 +41,19 @@
   <h5>You already know?</h5>
   <h2>Useful Pet Knowledge</h2>
   <div class="card-container">
-    <div class="card">
+    <div data-aos="fade-up" class="card">
       <img src="images/image_4.png" alt="Pomeranian">
       <span class="tag">Pet Knowledge</span>
       <h3>What is a Pomeranian? How to Identify Pomeranian Dogs</h3>
       <p>The Pomeranian is known as the smallest and cutest breed...</p>
     </div>
-    <div class="card">
+    <div data-aos="fade-up" class="card">
       <img src="images/image_2.png" alt="Dog Food">
       <span class="tag">Pet Knowledge</span>
       <h3>Dog Diet You Need to Know</h3>
       <p>Feeding your dog may seem simple, but there's a lot to consider...</p>
     </div>
-    <div class="card">
+    <div data-aos="fade-up" class="card">
       <img src="images/image_3.png" alt="Dog Biting">
       <span class="tag">Pet Knowledge</span>
       <h3>Why Dogs Bite and Destroy Furniture and How to Prevent It</h3>
@@ -68,7 +69,7 @@
 
 <!-- Product Tracker Section -->
 <section id="tracker" class="tracker-section">
-  <div class="tracker-left">
+  <div data-aos="fade-right" class="tracker-left">
     <h2>Today Perches Your Pets Tracker</h2>
 
     <div class="tracker-box">
@@ -92,7 +93,7 @@
     <div class="price">Rs. <strong>12000.00</strong></div>
   </div>
 
-  <div class="tracker-right">
+  <div data-aos="fade-left" class="tracker-right">
     <img src="images/image_7.png" alt="Cat and Dog" class="pet-img" />
     <button class="order-btn">Order Now</button>
   </div>
@@ -104,7 +105,7 @@
 </section>
 
 <section id="about-us" class="founder-banner">
-  <div class="founder-card">
+  <div data-aos="zoom-in-up" class="founder-card">
     <div class="avatar">
       <div class="number">1</div>
       <i class="fas fa-user-tie"></i>
@@ -114,7 +115,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam, atque, consequuntur cupiditate dolores explicabo, illum labore nam quis repudiandae rerum sed suscipit veniam! Deserunt eum expedita nemo quasi veniam voluptatibus.</p>
   </div>
 
-  <div class="founder-card">
+  <div data-aos="zoom-in-up" class="founder-card">
     <div class="avatar purple">
       <div class="number">2</div>
       <i class="fas fa-user-tie"></i>
@@ -124,7 +125,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda aut corporis eaque esse exercitationem facilis harum, id illo impedit ipsum iusto nobis odio, quam quod, reiciendis repellat sed tenetur veniam.</p>
   </div>
 
-  <div class="founder-card">
+  <div data-aos="zoom-in-up" class="founder-card">
     <div class="avatar blue">
       <div class="number">3</div>
       <i class="fas fa-user-tie"></i>
@@ -134,7 +135,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, cum excepturi expedita libero quo sint tenetur? Amet atque, consequatur consequuntur dolor eius esse ex ipsa iusto mollitia, repellat repudiandae soluta?</p>
   </div>
 
-  <div class="founder-card">
+  <div data-aos="zoom-in-up" class="founder-card">
     <div class="avatar darkblue">
       <div class="number">4</div>
       <i class="fas fa-user-tie"></i>
@@ -162,6 +163,11 @@
 </footer>
 
 <script src="scripts.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
 
 </body>
 </html>
